@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    /* Stays put in centre of page */
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed; 
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -62,13 +61,18 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 /* -------------------------------- Media Queries */
@@ -94,7 +98,6 @@ body {
         padding-top: 164px;
     }
 }
-
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
