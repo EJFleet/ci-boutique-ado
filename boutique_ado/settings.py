@@ -35,7 +35,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 ALLOWED_HOSTS = [
     '8000-ejfleet-ciboutiqueado-wg884ohxbrb.ws.codeinstitute-ide.net',
-    'ci-boutique-ado-ejf',
+    'ci-boutique-ado-ejf.herokuapp.com',
     'localhost',
 ]
 
